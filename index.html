@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookilicious</title>
+    <!-- Fonte icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Geral -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Header -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- Letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Gugi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Road+Rage&family=Sigmar&display=swap" rel="stylesheet">
+    <!-- Jquery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    <!-- Home -->
+    <link rel="stylesheet" href="./css/home.css">
+    <!-- Menu -->
+    <link rel="stylesheet" href="./css/menu.css">
+    <!-- Testemunho -->
+    <link rel="stylesheet" href="./css/testemunho.css">
+    <!-- Footer -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!--Animações -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i id="nav_logo" class="fa-solid fa-cookie-bite"> Cookilicious</i>
+            <ul id="nav_list">
+                <li class="navitem active"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#menu">Cardápio</a></li>
+                <li class="navitem"><a href="#testemunho">Avaliações</a></li>
+            </ul>
+            <button class="btndefault">
+                Peça aqui
+            </button>
+            <button id="mobilebtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div class="mobilemenu" id="mobilemenu">
+            <ul id="mobile_nav_list">
+                <li class="navitem"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#menu">Cardápio</a></li>
+                <li class="navitem"><a href="#testemunho">Avaliações</a></li>
+            </ul>
+            <button class="btndefault">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até  <span>você</span>
+                </h1>
+                <p class="description">Olá, amante de cookie, na Cookilicious, nós não só assamos os cookies mais deliciosos da cidade, mas também criamos uma experiência que harmoniza sabores e ritmos. Imagine um cookie crocante de rock'n'roll, um recheio suave de mp derretendo na boca, ou uma explosão de pop com gotas de chocolate. 🎸🎹🎤
+
+                Nossa loja é um palco onde cada mordida é uma nota, e cada visita, uma sinfonia. De clássicos reinventados a criações exclusivas, nossos cookies são feitos para encantar seu paladar e sua alma. 🎵✨
+
+                Então, ajuste o volume do seu coração e venha provar a doce melodia dos nossos cookies. Aqui, a vida é mais gostosa com um toque de música e muito amor assado! 🍪❤️
+
+                Bem-vindo(a) à Cookilicious – onde os sabores e os ritmos se encontram! 🎷🥁</p>
+                <div id="cta-btns">
+                    <a href="#" class="btndefault">Ver cardápio</a>
+                    <a href="tel:+55555555" id="phone_button"><button class="btndefault"><i class="fa-solid fa-phone"></i></button>(82)5555-5555</a>
+                </div>
+                <div class="socialmidia-btn">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img  src="./img/hero.png">
+
+            </div>
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Os mais pedidos</h3>
+            <div id="cookies">
+                <div class="biscoito">
+                    <div class="cookie-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="cookie-img" src="./img/cookie1.png" alt="">
+                    <h3 class="cookie-title">
+                        Cookie POP
+                    </h3>
+                    <span class="cookie-description">
+                        O nosso Cookie POP, o mais popular, entre  10 em cada 10 cookielovers recomendam.
+                    </span>
+                    <div class="cookie-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="cookie-price">
+                        <h4>R$ 12,00</h4>
+                        <h5>ou uma cadeira confortável</h5>
+                        <button class="btndefault">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+            
+                <div class="biscoito">
+                    <div class="cookie-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="cookie-img" src="./img/cookie2.png" alt="">
+                    <h3 class="cookie-title">
+                        Cookie Rock
+                    </h3>
+                    <span class="cookie-description">
+                        O nosso Cookie Rock, você vai arrasar.
+                    </span>
+                    <div class="cookie-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="cookie-price">
+                        <h4>R$ 12,00</h4>
+                        <h5>E uma cadeira confortável</h5>
+                        <button class="btndefault">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="biscoito">
+                    <div class="cookie-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="cookie-img" src="./img/cookie3.png" alt="">
+                    <h3 class="cookie-title">
+                        Cookie MPB
+                    </h3>
+                    <span class="cookie-description">
+                        O nosso Cookie MPB, o que já é bom fica ainda melhor.
+                    </span>
+                    <div class="cookie-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="cookie-price">
+                        <h4>R$ 12,00</h4>
+                        <h5>E uma cadeira confortável</h5>
+                        <button class="btndefault">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+            
+                <div class="biscoito">
+                    <div class="cookie-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img class="cookie-img" src="./img/cookie4.png" alt="">
+                    <h3 class="cookie-title">
+                        Cookie EMO
+                    </h3>
+                    <span class="cookie-description">
+                        O nosso Cookie EMO, vai te deixar emotivo.
+                    </span>
+                    <div class="cookie-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="cookie-price">
+                        <h4>R$ 12,00</h4>
+                        <h5>E uma cadeira confortável</h5>
+                        <button class="btndefault">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="testemunho">
+            <img id="testemunho-chef" src="./img/chef.png" alt="">
+            <div id="testemunho-content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">
+                    O que os cookielovers falam sobre nós
+                </h3>
+                <div id="feedback">
+                    <div class="feedback">
+                        <img class="feedback-avatar" src="./img/avatar1.png" alt="">
+                        <div class="feedback-content">
+                            <p>Ana Iris
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </p>
+                            <p>"Quero mais!!!"</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img class="feedback-avatar" src="./img/avatar2.png" alt="">
+                        <div class="feedback-content">
+                            <p>Luan Aquino
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </p>
+                            <p>"Mo Dahora!!! Tava bonzão"</p>
+                        </div>
+                    </div>
+
+                <button class="btndefault">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-itens">
+            <img src="./img/wave.svg" alt="">
+            <span id="copyright">
+                Reproduzido por <a target="_blank" href="https://github.com/RosaCL"><img class="const" src="./img/costurezaa.png" alt=""></a>  &copy 2025 
+            </span>
+            <span id="copyright">
+                Todos os aprendizados presente <a target="_blank" href="https://www.youtube.com/watch?v=8V3mw1w6h0U&t=5700s"> 
+                    Larissa Kich</a>  
+            </span>
+            <div class="socialmidia-btn">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

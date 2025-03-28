@@ -1,0 +1,30 @@
+footer{
+    background-color: #ffd2b4;   
+}
+.const{
+    width: 250px;
+    
+}
+#footer-itens{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+    
+}
+#copyright{
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.623);
+    font-weight:500;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+}
+@media screen and (max-width:600px){
+    #footer-itens{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
